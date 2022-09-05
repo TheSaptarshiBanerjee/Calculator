@@ -22,6 +22,18 @@ body {
   border-radius: 10px;
   user-select: none;
 }
+.container .h3
+{
+  border: 6px rgba(128, 128, 128, 0.116) solid;
+  text-align: center;
+  height: 5vh;
+  width: 45vh;
+  color: white;
+  font-size: 100%;
+  line-height: 0px;
+  word-wrap: break-word;
+ 
+}
 
 #Display-area {
   width: 100%;
@@ -34,18 +46,7 @@ body {
   border-bottom: 1px rgba(128, 128, 128, 0.116) solid;
 }
 
-.container .h3
-{
-  border: 6px rgba(128, 128, 128, 0.116) solid;
-  text-align: center;
-  height: 5vh;
-  width: 50vh;
-  color: white;
-  font-size: 100%;
-  line-height: 0px;
-  word-wrap: break-word;
- 
-}
+
 .container .h3:hover {
   background-color: #e6d3678d;
 }
